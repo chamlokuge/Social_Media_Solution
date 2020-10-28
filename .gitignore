@@ -3,3 +3,4 @@ README
 config/default.json
 .vscode/
 node_modules/
+client/node_modules
