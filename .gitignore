@@ -1,0 +1,5 @@
+node modules/
+README
+config/default.json
+.vscode/
+node_modules/
