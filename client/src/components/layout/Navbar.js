@@ -6,7 +6,9 @@ const Navbar = () => {
         <nav className="navbar bg-dark">
       <h1>
         <Link to="/">
-            <i className="fas fa-code"></i> connect.io
+            {/* <i className="fas fa-code"></i>  */}
+            <i class="fas fa-users"></i>  connect.io
+            
             </Link>
       </h1>
       <ul>
