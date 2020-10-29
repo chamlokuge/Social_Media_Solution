@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
-	/* --primary-color: #17a2b8; 47e5bc */
-	--primary-color: #47e5bc;
+	/* --primary-color: #17a2b8; 47e5bc #47e5bc*/
+	--primary-color: #17a2b8;
 	--dark-color: #343a40;
 	--light-color: #f4f4f4;
 	--danger-color: #dc3545;
