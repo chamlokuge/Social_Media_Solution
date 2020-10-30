@@ -3,7 +3,7 @@
 import { SET_ALERT , REMOVE_ALERT } from './types';
 
 //can do because of thunk middleware
-export const setAlert = (msg, alertType) => dispatch => {
+export const setAlert = (msg, alertType, timeout = 5000) => dispatch => {
     // const id = uuid.v4();
     const id = uuidv4();
     dispatch({
@@ -11,4 +11,5 @@ export const setAlert = (msg, alertType) => dispatch => {
         payload: { msg, alertType, id }
     });
 
+    setTimeout(() => dispatch({ type: REMOVE_ALERT, payload: id }), timeout);
 }
