@@ -15,8 +15,10 @@ const Landing = () => {
           You want to make sure your tone is always professional but friendly. <br />Create a profile/ portfolio, share posts and get help from other professionals.
           </p> <br />
           <div className="buttons">
+            {/* <Link to="/register" className="btn btn-primary">Sign Up</Link> .btn-solid-lg  */}
             <Link to="/register" className="btn btn-primary">Sign Up</Link>
-            <Link to="/login" className="btn btn-light">Login</Link>
+            {/* <Link to="/login" className="btn btn-light">Login</Link>btn-solid-lg-light */}
+            <Link to="/login" className=" btn btn-light">Login</Link>
           </div>
         </div>
       </div>
