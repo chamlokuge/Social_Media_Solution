@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
-	/* --primary-color: #17a2b8; 47e5bc #47e5bc*/
-	--primary-color: #17a2b8;
+	/* --primary-color: #17a2b8; 47e5bc #47e5bc #14bf98*/
+	--primary-color: #14bf98;
 	--dark-color: #343a40;
 	--light-color: #f4f4f4;
 	--danger-color: #dc3545;
@@ -574,5 +574,53 @@ button {
 	.post a,
 	.post button {
 		padding: 0.3rem 0.4rem;
+	}
+
+	.btn-1 {
+		display: inline-block;
+		/* background: var(--light-color); */
+		/* color: #333; */
+		/* padding: 1.375rem 2.125rem 1.375rem 2.125rem; */
+		/* border: 0.125rem solid #14bf98; */
+		padding: 0.4rem 1.3rem;
+		font-size: 1rem;
+		border: none;
+		cursor: pointer;
+		margin-right: 0.5rem;
+		transition: opacity 0.2s ease-in;
+		outline: none;
+	}
+
+	.btn-1-solid-lg {
+		display: inline-block;
+		padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+		border: 0.125rem solid #14bf98;
+		border-radius: 0.25rem;
+		background-color: #14bf98;
+		color: #fff;
+		font: 700 0.75rem/0 "Montserrat", sans-serif;
+		text-decoration: none;
+		transition: all 0.2s;
+	}
+
+	.btn-1-solid-lg-light {
+		display: inline-block;
+		padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+		border: 0.125rem solid #14bf98;
+		border-radius: 0.25rem;
+		background: var(--light-color);
+		color: #333;
+		font: 700 0.75rem/0 "Montserrat", sans-serif;
+		text-decoration: none;
+	}
+
+	.btn-solid-lg:hover {
+		background-color: transparent;
+		color: #14bf98;
+		text-decoration: none;
+	}
+
+	.btn-solid-lg-light:hover {
+		opacity: 0.8;
 	}
 }
